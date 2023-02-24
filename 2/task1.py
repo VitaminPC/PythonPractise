@@ -6,8 +6,8 @@
 
 digit = input('Введите вещественное число: ')
 result = 0
-for i in range(0, len(digit)):
-    if '0123456789'.find(digit[i]) != -1:
-        result += int(digit[i])
+for i in digit:
+    if i.isdigit():
+        result += int(i)
 print(f'Сумма цифр числа {digit} = {result}')        
     
