@@ -29,3 +29,4 @@ git push -u origin main
 
 1. Init virtual env  
 python -m venv .folder
+python -m cProfile -s time pract4.py 100001 - узнать какие строки кода сколько по времени выполняются  (1001- количество итераций)
