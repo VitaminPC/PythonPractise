@@ -1,5 +1,5 @@
+
 # Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
-from random import randint
 import os
 
 currentDirectory = os.getcwd()
@@ -15,4 +15,3 @@ for line in inputFile:
     newFile.write(newline)
 newFile.close()
 print(f'Результат записан в файл result1.txt')
-    

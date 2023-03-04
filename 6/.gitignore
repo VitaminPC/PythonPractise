@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-.folder/
+
 # Distribution / packaging
 .Python
 build/
@@ -148,7 +148,7 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
-
+.folder/
 # Cython debug symbols
 cython_debug/
 
